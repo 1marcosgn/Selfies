@@ -14,6 +14,13 @@
 		5312D20E1A940C0E00FF1AB7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5312D20D1A940C0E00FF1AB7 /* Images.xcassets */; };
 		5312D2111A940C0E00FF1AB7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5312D20F1A940C0E00FF1AB7 /* LaunchScreen.xib */; };
 		5312D21D1A940C0E00FF1AB7 /* mySelfiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5312D21C1A940C0E00FF1AB7 /* mySelfiesTests.m */; };
+		5312D22A1A9419C600FF1AB7 /* ConnectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5312D2281A9419C600FF1AB7 /* ConnectionViewController.m */; };
+		5312D22B1A9419C600FF1AB7 /* ConnectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5312D2291A9419C600FF1AB7 /* ConnectionViewController.xib */; };
+		5312D2321A94259500FF1AB7 /* SmallImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5312D2301A94259500FF1AB7 /* SmallImageCollectionViewCell.m */; };
+		5312D2331A94259500FF1AB7 /* SmallImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5312D2311A94259500FF1AB7 /* SmallImageCollectionViewCell.xib */; };
+		5312D2371A94264100FF1AB7 /* LargeImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5312D2351A94264100FF1AB7 /* LargeImageCollectionViewCell.m */; };
+		5312D2381A94264100FF1AB7 /* LargeImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5312D2361A94264100FF1AB7 /* LargeImageCollectionViewCell.xib */; };
+		5312D2451A943AF900FF1AB7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5312D2441A943AF900FF1AB7 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,16 @@
 		5312D2161A940C0E00FF1AB7 /* mySelfiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mySelfiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5312D21B1A940C0E00FF1AB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5312D21C1A940C0E00FF1AB7 /* mySelfiesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mySelfiesTests.m; sourceTree = "<group>"; };
+		5312D2271A9419C600FF1AB7 /* ConnectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionViewController.h; sourceTree = "<group>"; };
+		5312D2281A9419C600FF1AB7 /* ConnectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionViewController.m; sourceTree = "<group>"; };
+		5312D2291A9419C600FF1AB7 /* ConnectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConnectionViewController.xib; sourceTree = "<group>"; };
+		5312D22F1A94259500FF1AB7 /* SmallImageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmallImageCollectionViewCell.h; sourceTree = "<group>"; };
+		5312D2301A94259500FF1AB7 /* SmallImageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmallImageCollectionViewCell.m; sourceTree = "<group>"; };
+		5312D2311A94259500FF1AB7 /* SmallImageCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SmallImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		5312D2341A94264100FF1AB7 /* LargeImageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LargeImageCollectionViewCell.h; sourceTree = "<group>"; };
+		5312D2351A94264100FF1AB7 /* LargeImageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LargeImageCollectionViewCell.m; sourceTree = "<group>"; };
+		5312D2361A94264100FF1AB7 /* LargeImageCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LargeImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		5312D2441A943AF900FF1AB7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5312D2451A943AF900FF1AB7 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +81,8 @@
 		5312D1F41A940C0E00FF1AB7 = {
 			isa = PBXGroup;
 			children = (
+				5312D22E1A94256100FF1AB7 /* Collection */,
+				5312D2261A9419A900FF1AB7 /* Connection */,
 				5312D1FF1A940C0E00FF1AB7 /* mySelfies */,
 				5312D2191A940C0E00FF1AB7 /* mySelfiesTests */,
 				5312D1FE1A940C0E00FF1AB7 /* Products */,
@@ -117,6 +137,38 @@
 				5312D21B1A940C0E00FF1AB7 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5312D2261A9419A900FF1AB7 /* Connection */ = {
+			isa = PBXGroup;
+			children = (
+				5312D2271A9419C600FF1AB7 /* ConnectionViewController.h */,
+				5312D2281A9419C600FF1AB7 /* ConnectionViewController.m */,
+				5312D2291A9419C600FF1AB7 /* ConnectionViewController.xib */,
+			);
+			name = Connection;
+			sourceTree = "<group>";
+		};
+		5312D22E1A94256100FF1AB7 /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				5312D2401A943AC700FF1AB7 /* Reorder */,
+				5312D22F1A94259500FF1AB7 /* SmallImageCollectionViewCell.h */,
+				5312D2301A94259500FF1AB7 /* SmallImageCollectionViewCell.m */,
+				5312D2311A94259500FF1AB7 /* SmallImageCollectionViewCell.xib */,
+				5312D2341A94264100FF1AB7 /* LargeImageCollectionViewCell.h */,
+				5312D2351A94264100FF1AB7 /* LargeImageCollectionViewCell.m */,
+				5312D2361A94264100FF1AB7 /* LargeImageCollectionViewCell.xib */,
+			);
+			name = Collection;
+			sourceTree = "<group>";
+		};
+		5312D2401A943AC700FF1AB7 /* Reorder */ = {
+			isa = PBXGroup;
+			children = (
+				5312D2441A943AF900FF1AB7 /* QuartzCore.framework */,
+			);
+			name = Reorder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +251,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5312D22B1A9419C600FF1AB7 /* ConnectionViewController.xib in Resources */,
 				5312D20C1A940C0E00FF1AB7 /* Main.storyboard in Resources */,
 				5312D2111A940C0E00FF1AB7 /* LaunchScreen.xib in Resources */,
 				5312D20E1A940C0E00FF1AB7 /* Images.xcassets in Resources */,
+				5312D2381A94264100FF1AB7 /* LargeImageCollectionViewCell.xib in Resources */,
+				5312D2331A94259500FF1AB7 /* SmallImageCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +274,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5312D22A1A9419C600FF1AB7 /* ConnectionViewController.m in Sources */,
 				5312D2091A940C0E00FF1AB7 /* ViewController.m in Sources */,
 				5312D2061A940C0E00FF1AB7 /* AppDelegate.m in Sources */,
+				5312D2321A94259500FF1AB7 /* SmallImageCollectionViewCell.m in Sources */,
+				5312D2371A94264100FF1AB7 /* LargeImageCollectionViewCell.m in Sources */,
 				5312D2031A940C0E00FF1AB7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
